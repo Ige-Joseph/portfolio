@@ -1,14 +1,14 @@
 import React from "react";
 import {
-  Thumbnails,
-  CCM,
+  // Thumbnails,
+  // CCM,
   workImgOne,
   workImgTwo,
   workImgThree,
   workImgFour,
   workImgFive,
   workImgSix,
-  workImgSeven,
+  // workImgSeven,
   workImgEight,
 } from "../../assets";
 import Title from "../home/Title";
