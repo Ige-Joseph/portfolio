@@ -39,7 +39,7 @@ const Blog = () => {
           {/* 2nd row Add more blog cards here when ready */}
 
           <BlogCard
-            image={blogImgTwo}
+            image={blogImgThree}
             imageLink="https://yourwebsite.com/vitals-hms"
             title="Vitals HMS"
             titleLink="https://yourwebsite.com/vitals-hms"
