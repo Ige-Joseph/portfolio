@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .borderTop {
+    @apply border-t-[1px] border-t-zinc-800;
+  }
+  .borderBottom {
+    @apply border-b-[1px] border-b-zinc-800;
+  }
+  .borderRight {
+    @apply border-r-[1px] border-r-zinc-800;
+  }
+  .borderLeft {
+    @apply border-l-[1px] border-l-zinc-800;
+  }
+  .borderAll {
+    @apply border-[1px] border-zinc-800;
+  }
+  /* ======================== About Me Start ========================== */
+/* About Me List */
+/* About Me List */
+.aboutRightLi {
+  @apply flex flex-wrap items-start border-b-[1px] border-gray-800 py-2;
+}
+
+.aboutRightLiSpan {
+  @apply bg-designColor text-black uppercase px-4 py-1 rounded-md inline-block min-w-[100px] mr-4 mb-2 md:mb-0;
+}
+
+  /* ======================== About Me End ============================ */
+  .sidenavLi{
+    @apply text-textColor border-b-[1px] border-b-zinc-500 py-4 text-base hover:text-designColor duration-300
+  }
+}
+
+
+
+
+/* Custom Scrollbar Styling - Animated & Glowy */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #646464, #FF014F);
+  border-radius: 10px;
+  box-shadow: 
+    0 0 10px rgba(255, 1, 79, 0.5),
+    0 0 20px rgba(255, 1, 79, 0.3),
+    inset 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #FF014F, #ff4d7d);
+  box-shadow: 
+    0 0 15px rgba(255, 1, 79, 0.8),
+    0 0 30px rgba(255, 1, 79, 0.5),
+    0 0 40px rgba(255, 1, 79, 0.3),
+    inset 0 0 15px rgba(255, 255, 255, 0.2);
+  transform: scaleX(1.1);
+}
+
+/* Pulsing glow animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 
+      0 0 10px rgba(255, 1, 79, 0.4),
+      0 0 20px rgba(255, 1, 79, 0.2);
+  }
+  50% {
+    box-shadow: 
+      0 0 15px rgba(255, 1, 79, 0.6),
+      0 0 30px rgba(255, 1, 79, 0.4);
+  }
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FF014F #0a0a0a;
+}
