@@ -64,7 +64,7 @@ const Left = () => {
             className="w-1/2 border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
             rel="noreferrer"
           >
-            <a href="#" className="w-full h-full flex justify-center items-center gap-2">
+            <a href="https://www.gooogle.com" className="w-full h-full flex justify-center items-center gap-2">
               View CV <BsCloudLightningFill />
             </a>
           </a>

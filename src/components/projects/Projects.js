@@ -2,7 +2,7 @@ import React from "react";
 import {
   // Thumbnails,
   // CCM,
-  workImgOne,
+  // workImgOne,
   workImgTwo,
   workImgThree,
   workImgFour,
